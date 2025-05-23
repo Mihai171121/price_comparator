@@ -27,8 +27,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.postgresql:postgresql:42.6.0'   // driver PostgreSQL (versiune exemplar)
-	compileOnly 'org.projectlombok:lombok:1.18.28'      // Lombok (compileOnly, va fi folosit doar la compilare)
-	annotationProcessor 'org.projectlombok:lombok:1.18.28'  // necesar pentru generarea codului Lombok
+	compileOnly 'org.projectlombok:lombok:1.18.30'      // Lombok (compileOnly, va fi folosit doar la compilare)
+	annotationProcessor 'org.projectlombok:lombok:1.18.30'  // necesar pentru generarea codului Lombok
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
